@@ -1,7 +1,7 @@
 # SSH Honeypot (Cowrie) Deployment
 This project involved deploying an SSH honeypot using Cowrie in a virtualized lab environment to simulate real-world attacker behavior. The goal was to observe and analyze malicious SSH activity, including brute-force attempts, command execution, and potential malware deployment. This strengthened my defensive security skills and improved my ability to detect and analyze attacker tactics.
 <br><br>
-##Technologies
+## Technologies
 - Docker
 - Cowrie Honeypot
 - Kali Linux (Attacker VM)
