@@ -56,12 +56,12 @@ This project significantly improved my hands-on defensive security experience. I
 - Deploy additional honeypots (FTP, HTTP, SMB) for broader coverage
 - Implement alerts for high-risk attacker behavior
 - Visualize attack data using Grafana dashboards
-
+<br><br>
 ## ▶️ Running the Project
 1. Set Up the Lab
 - Create two VirtualBox VMs:
-🛡️ Honeypot: Parrot Linux
-🧨 Attacker: Kali Linux
+  - 🛡️ Honeypot: Parrot Linux
+  - 🧨 Attacker: Kali Linux
 - Configure both VMs to use a Host-only Network
 2. Install Docker (Honeypot VM)
 sudo apt update
@@ -77,6 +77,6 @@ nmap -sV -p 2222 192.168.56.106
 ssh root@192.168.56.106 -p 2222
 6. Review Logs (Honeypot VM)
 docker logs <container_id>
-
+<br><br>
 ## Video
 Coming soon — I will record a walkthrough of the setup and attack simulation.
